@@ -1,0 +1,44 @@
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;            /* Full viewport height to center vertically */
+    margin: auto;
+    padding: 20px;
+    background-color: #fafafa; /* Background color for the entire chat */
+  }
+  
+  .message-container {
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    max-width: 500px;         /* Limit the width of the chat */
+    height: 60vh;             /* Adjust the height */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+  }
+  
+  input, button {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+  }
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    width: 100%;
+    background-color: #244be8;
+    border-radius: 10px;
+    border-style: none;
+    color: #ffffff;
+  }
+ 

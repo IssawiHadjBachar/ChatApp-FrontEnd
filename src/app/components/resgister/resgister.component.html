@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="left-side">
+    <img src="../../../assets/chat.png" alt="Image" />
+  </div>
+  <form (ngSubmit)="register()" class="right-side">
+    
+      <label for="username">Username:</label>
+      <input id="username" [(ngModel)]="username" name="username" required>
+    
+      <label for="password">Password:</label>
+      <input type="password" id="password" [(ngModel)]="password" name="password" required>
+    
+    <button type="submit">Register</button>
+    <button type="button" (click)="navigateToLogin()">Login here</button>
+  </form>
+</div>
