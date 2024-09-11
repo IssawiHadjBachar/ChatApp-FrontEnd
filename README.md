@@ -1,27 +1,30 @@
-# ChatApp
+# ChatApp Frontend
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
 
-## Development server
+## Overview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This frontend application provides a real-time chat interface using Angular. It connects to the backend via WebSocket for real-time messaging in chat room
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Real-Time Messaging**: Connects to the backend using WebSocket for live chat functionality.
+- **User Interface**: Built with Angular, providing a responsive and interactive chat experience.
 
-## Build
+## Technologies Used
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Angular**: Framework for building the frontend application.
+- **WebSocket**: For real-time communication.
+- **STOMP over WebSocket**: For handling messaging protocols.
 
-## Running unit tests
+## Getting Started
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Prerequisites
 
-## Running end-to-end tests
+- Node.js and npm (or Yarn)
+- Angular CLI
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Installation Libraries
+npm install @stomp/ng2-stompjs @stomp/stompjs
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
